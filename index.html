@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Jack</title>
+    <!-- Css -->
+    <link rel="stylesheet" href="./assets/Css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="overlay"></div>
+    <div class="canvas" id="canvas">
+        <div class="content container h-100 d-flex flex-column justify-content-center flex-wrap align-items-center">
+            <div class="row d-flex justify-content-center">
+                <h1 class="text-warning text-center">Black Jack</h1>
+            </div>
+            <div class="row d-flex justify-content-center flex flex-wrap flex-column text-center">
+                <h4>Want to Play a Round ?</h4><br>
+                <p><span id="cards-el"></span></p>
+                <p><span id="sum-el"></span></p>
+                <p id="message"></p>
+                <button class="btn bg-warning btn-outline-dark" id="start">Start Game</button>
+                <button class="btn bg-warning btn-outline-dark" id="draw">Draw a New Card!</button>
+            </div>
+        </div>
+    </div>
+
+<script src="./assets/Js/app.js"></script>
+</body>
+</html>
